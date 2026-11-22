@@ -149,18 +149,6 @@ Le prototype est une **maquette à échelle réduite** (plateau de 70 × 70 mm).
 - Piliers debout sans support ; plateforme et plateau à plat avec supports arborescents posés sur le plateau uniquement
 - Visserie : vis autotaraudeuses M2 × 8 pour les pattes des servos
 
-## 👥 L'équipe — Proteus Group
-
-| Membre | Rôle |
-|---|---|
-| Jaime SOUSA | Conception mécanique (CAO), firmware de stabilisation, modèle de commande et simulation |
-| Tristan GAVEAU | Modèle de commande, simulation et validation sur logs réels |
-| *(à compléter)* | *(à compléter)* |
-| *(à compléter)* | *(à compléter)* |
-| *(à compléter)* | *(à compléter)* |
-
-**Ma contribution :** la conception mécanique complète du cardan 2 axes sous **SolidWorks** — plateforme de transition, plateau intérieur, piliers servo et pivot — pensée pour l'impression 3D (pas de porte-à-faux, tourillons en goutte d'eau) et vérifiée en collision sur tout le débattement. J'ai également développé le **firmware de stabilisation** (filtre complémentaire gyroscope/accéléromètre et PID de suivi de consigne par axe, avec limite de vitesse, butées logicielles et zone morte), puis travaillé sur le **modèle de commande et la validation par simulation** sur logs de vol réels — c'est elle qui a fixé la course mécanique et le centrage de masse à viser. Enfin, j'ai mené le dimensionnement de la transposition vers l'antenne réelle de 400 × 400 mm (inerties, couples, choix d'actionneurs).
-
 ## 🙏 Remerciements
 
 Merci à **Fire Point** pour ce défi très concret, aux mentors, et aux organisateurs et partenaires de l'**European Defense Tech Hackathon — Paris 2026**.
