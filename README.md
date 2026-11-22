@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-  <img width="1535" height="2048" alt="WhatsApp Image 2026-11-22 at 20 12 29(1)" src="https://github.com/user-attachments/assets/b3c7e95f-c310-4a91-ad3c-224bf3fd9274" />
+  <img width="340" alt="Prototype de la plateforme stabilisée" src="https://github.com/user-attachments/assets/b3c7e95f-c310-4a91-ad3c-224bf3fd9274" />
   <br><sub><em>Le prototype en fonctionnement</em></sub>
 </p>
 
-> ℹ️ **Ce dépôt couvre la mécanique et le firmware de la plateforme.** Le modèle de commande et la simulation sur logs de vol réels ont été menés en parallèle par un autre membre de l'équipe et sont conservés dans un dépôt séparé.
+> ℹ️ **Ce dépôt regroupe la mécanique et le firmware de la plateforme.** Le code de modélisation et de simulation est conservé dans un dépôt séparé.
 
 ---
 
@@ -107,7 +107,7 @@ Code : [`firmware/stabilisation_EDTH_PID.cpp`](firmware/stabilisation_EDTH_PID.c
 
 ## 📈 Validation par la simulation
 
-En parallèle de la conception mécanique, l'équipe a simulé la chaîne complète sur des **logs d'attitude réels** (vols ArduPlane) et sur des vols synthétiques, avec le critère d'erreur ≤ 2°.
+En parallèle de la conception mécanique, nous avons simulé la chaîne complète sur des **logs d'attitude réels** (vols ArduPlane) et sur des vols synthétiques, avec le critère d'erreur ≤ 2°.
 
 | Scénario | Erreur max | Sans prédicteur |
 |---|:---:|:---:|
@@ -163,13 +163,13 @@ Le prototype est une **maquette à échelle réduite** (plateau de 70 × 70 mm).
 
 | Membre | Rôle |
 |---|---|
-| Jaime SOUSA | Conception mécanique (CAO) et firmware de stabilisation |
+| Jaime SOUSA | Conception mécanique (CAO), firmware de stabilisation, modèle de commande et simulation |
 | Tristan GAVEAU | Modèle de commande, simulation et validation sur logs réels |
 | *(à compléter)* | *(à compléter)* |
 | *(à compléter)* | *(à compléter)* |
 | *(à compléter)* | *(à compléter)* |
 
-**Ma contribution :** la conception mécanique complète du cardan 2 axes sous **SolidWorks** — plateforme de transition, plateau intérieur, piliers servo et pivot — pensée pour l'impression 3D (pas de porte-à-faux, tourillons en goutte d'eau) et vérifiée en collision sur tout le débattement. J'ai également développé le **firmware de stabilisation** : filtre complémentaire gyroscope/accéléromètre et PID de suivi de consigne par axe, avec limite de vitesse, butées logicielles et zone morte. Enfin, j'ai mené le dimensionnement de la transposition vers l'antenne réelle de 400 × 400 mm (inerties, couples, choix d'actionneurs).
+**Ma contribution :** la conception mécanique complète du cardan 2 axes sous **SolidWorks** — plateforme de transition, plateau intérieur, piliers servo et pivot — pensée pour l'impression 3D (pas de porte-à-faux, tourillons en goutte d'eau) et vérifiée en collision sur tout le débattement. J'ai également développé le **firmware de stabilisation** (filtre complémentaire gyroscope/accéléromètre et PID de suivi de consigne par axe, avec limite de vitesse, butées logicielles et zone morte), puis travaillé sur le **modèle de commande et la validation par simulation** sur logs de vol réels — c'est elle qui a fixé la course mécanique et le centrage de masse à viser. Enfin, j'ai mené le dimensionnement de la transposition vers l'antenne réelle de 400 × 400 mm (inerties, couples, choix d'actionneurs).
 
 ## 🙏 Remerciements
 
