@@ -92,7 +92,7 @@ Pièces conçues sous **SolidWorks** et imprimées en 3D (Bambu Lab), pensées p
 - **PID par axe :** fait suivre au servo la consigne de compensation sans dépassement, avec limite de vitesse, butées logicielles et zone morte de 0,3°.
 - **Commande des servos** en microsecondes (résolution fine), boucle à 100 Hz.
 
-Code : [`firmware/stabilisation_EDTH_PID.cpp`](firmware/stabilisation_EDTH_PID.cpp)
+Code : [`stabilisation_EDTH_PID.cpp`](stabilisation_EDTH_PID.cpp)
 
 ### Réglages principaux
 
