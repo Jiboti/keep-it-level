@@ -11,8 +11,6 @@
   <br><sub><em>Le prototype en fonctionnement</em></sub>
 </p>
 
-> ℹ️ **Ce dépôt regroupe la mécanique et le firmware de la plateforme.** Le code de modélisation et de simulation est conservé dans un dépôt séparé.
-
 ---
 
 ## 🎯 Le défi
