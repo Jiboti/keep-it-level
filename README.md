@@ -134,19 +134,11 @@ Le prototype est une **maquette à échelle réduite** (plateau de 70 × 70 mm).
 - **Actionneurs recommandés :** servos intelligents de 4 à 10 N·m (type Dynamixel XM430 / XM540) pour un prototype à l'échelle 1, puis moteurs brushless en entraînement direct pour la version industrielle.
 - **Point clé :** équilibrer l'antenne sur ses axes divise le couple nécessaire par deux.
 
-### Suite du projet
-
-- [ ] Reprendre la CAO pour une course de ±55° par axe (résultat de la simulation)
-- [ ] Lecture de l'attitude du Cube Orange en MAVLink (message `ATTITUDE`) à la place de l'IMU embarquée
-- [ ] Prototype à l'échelle 1 avec antenne de 2 kg et actionneurs dimensionnés
-- [ ] Ajout d'une IMU sur la plateforme pour mesurer l'erreur réelle et corriger le calage
-
 ## 📁 Contenu du dépôt
 
 ```
 ├── cad/          # Pièces SolidWorks, STEP et STL prêts à imprimer
 ├── firmware/     # Code de stabilisation (filtre complémentaire + PID)
-├── docs/         # Plans cotés, deck de présentation
 └── media/        # Photos et vidéos du prototype
 ```
 
