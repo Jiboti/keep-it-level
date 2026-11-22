@@ -7,7 +7,7 @@
 </p>
 
 <p align="center">
-  <img src="media/prototype.jpg" alt="Prototype de la plateforme stabilisée" width="600"/>
+  <img width="1535" height="2048" alt="WhatsApp Image 2026-11-22 at 20 12 29(1)" src="https://github.com/user-attachments/assets/b3c7e95f-c310-4a91-ad3c-224bf3fd9274" />
   <br><sub><em>Le prototype en fonctionnement</em></sub>
 </p>
 
